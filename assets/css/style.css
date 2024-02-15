@@ -19,7 +19,7 @@
 
   /* Colores */
   --primary-color: #111;
-  --text-primary: #ee991a;
+  --text-primary: #ee991a; 
   --bg-color-section1: #eee;
   --bg-color-section2: #fafafa;
   --bg-color-buttons: #e0e0e0;
@@ -468,9 +468,10 @@ img {
     padding: var(--header-height) 0 3rem;
 
     .home__image {
-      width: clamp(min(320px, 100%), 85vw, 445px);
+      width: clamp(min(320px, 100%), 585vw, 445px);
       height: auto;
       margin: 0 auto;
+      filter: blur(1px);
     }
 
     .home__social {
@@ -504,11 +505,13 @@ img {
 
       .home__title {
         margin: 0 auto;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease-in-out;
         margin-bottom: var(--mr-2);
         text-transform: uppercase;
         border-right: 4px solid;
         white-space: nowrap;
-        width: 15ch;
+        width: 18ch;
         animation: typing 2s infinite steps(15) alternate,
           blink .3s infinite step-end alternate;
         overflow: hidden;
