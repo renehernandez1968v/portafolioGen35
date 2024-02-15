@@ -154,11 +154,6 @@ img {
   border-radius: 4px;
 }
 
-/* ============= Dark-Mode ============= */
-/* .dark-mode {
-
-} */
-
 /* ============= Header & NavBar ============= */
 .header {
   position: fixed;
@@ -294,7 +289,7 @@ img {
             position: absolute;
             top: 2px;
             left: 2px;
-            background-image: url(../img/espana.png);
+            background-image: url(/assets/img/BotonGuate.png);
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 50%;
